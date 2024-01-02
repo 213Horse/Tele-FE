@@ -1,0 +1,163 @@
+.form__login {
+  background-image: url('../../../assets/bgbrand.svg');
+  background-position: center;
+  background-size: cover;
+  padding: 5%;
+  min-height: 100vh;
+}
+
+.form__login h5 {
+  font-weight: bold;
+}
+
+.logindiv {
+  background-color: #00000000;
+  box-shadow: 5px 10px 50px #888888;
+  margin: auto;
+  padding: 15px;
+  width: 60%;
+  height: 90%;
+}
+
+.loginform {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  background-color: transparent;
+}
+
+.loginform h6.title_label {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.loginh {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.loginbtn {
+  background-color: var(--dark-blue);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-weight: bold;
+  padding: 11px 10px;
+}
+
+.info {
+  margin-top: 10%;
+  width: 50%;
+  margin: 10% auto;
+}
+
+.info h5 {
+  text-align: center;
+  color: var(--red);
+}
+
+.info h6 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+@media (width < 600px) {
+  h5.loginh {
+    width: 100%;
+    display: block;
+    color: white;
+    font-size: 12px;
+  }
+  h6.title_label {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: var(--blue);
+  }
+
+  .loginform {
+    width: 100%;
+  }
+
+  .loginform input {
+    padding: 5px;
+    font-size: 11px;
+  }
+  button.btn-primary {
+    padding: 5px;
+    font-size: 13px;
+    margin: 0;
+  }
+  .info {
+    display: none;
+  }
+  .logindiv {
+    background-color: #00000000;
+    box-shadow: 5px 10px 50px #888888;
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+    height: max-content;
+  }
+}
+
+@media (width < 900px) {
+  h5.loginh {
+    width: 100%;
+    display: block;
+    color: white;
+    font-size: 12px;
+  }
+  h6.title_label {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: var(--blue);
+  }
+
+  .loginform {
+    width: 100%;
+  }
+
+  .loginform input {
+    padding: 10px;
+    font-size: 11px;
+  }
+  button.btn-primary {
+    padding: 5px;
+    font-size: 13px;
+    margin: 0 auto;
+    width: 200px;
+    display: block;
+  }
+  .info {
+    margin-top: 10%;
+    width: 100%;
+    margin: 4% auto;
+  }
+
+  .info h5 {
+    text-align: center;
+  }
+
+  .info h6 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--blue);
+  }
+  .logindiv {
+    background-color: #00000000;
+    box-shadow: 5px 10px 50px #888888;
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+    height: max-content;
+  }
+}

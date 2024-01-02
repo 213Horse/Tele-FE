@@ -1,0 +1,169 @@
+.newsboard {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.reportDate .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.dates {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   width: 300px;
+   gap: 10px;
+   margin-bottom: 15px;
+   align-items: center;
+}
+
+.dates input {
+    border: none;
+    outline: none;
+    padding: 5px 3px;
+    border-radius: 5px;
+    color: var(--dark-grey);
+}
+
+.statistical h4{
+    color: var(--dark-grey);
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contents {
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.content {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.content strong {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--dark-grey);
+}
+
+.content h2 {
+    color: var(--red);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.charts {
+    margin-top: 15px;
+}
+
+.chart {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.chart h5 {
+    color: var(--dark-grey);
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+@media (width <= 600px) {
+    .newsboard {
+        padding: 5px;
+        margin-top: 5px;
+    }
+    
+    .reportDate .title {
+        font-size: 13px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: var(--blue);
+    }
+    
+    .dates {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       width: 200px;
+       gap: 10px;
+       margin-bottom: 15px;
+       align-items: center;
+    }
+    
+    .dates input {
+        border: none;
+        outline: none;
+        padding: 5px 3px;
+        width: 100px;
+        border-radius: 5px;
+        color: var(--dark-grey);
+    }
+    
+    .statistical h4{
+        color: var(--dark-grey);
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .contents {
+        padding: 7px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+    
+    .content {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+    .content strong {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: var(--dark-grey);
+    }
+    
+    .content h2 {
+        color: var(--red);
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .charts {
+        margin-top: 15px;
+    }
+    
+    .chart {
+        padding: 10px;
+        background-color: white;
+        border-radius: 5px;
+        margin: 10px 0;
+    }
+    
+    .chart h5 {
+        color: var(--dark-grey);
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    
+}

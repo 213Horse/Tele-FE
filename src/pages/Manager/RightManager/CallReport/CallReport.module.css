@@ -1,0 +1,272 @@
+.callsboard {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .reportCall .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--blue);
+  }
+  
+  .dates {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    gap: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  
+  .dates input {
+    border: none;
+    outline: none;
+    padding: 5px 3px;
+    border-radius: 5px;
+    color: var(--dark-grey);
+  }
+  
+  .statistical h4 {
+    color: var(--dark-grey);
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .charts {
+    margin-top: 15px;
+  }
+  
+  .chart {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .chart h5 {
+    color: var(--dark-grey);
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .listCall {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .head__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 14px;
+    border-radius: 10px;
+    background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+  }
+  
+  .head__box h3 {
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .head_new {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    gap: 5px;
+    text-align: center;
+    border-bottom: 2px solid var(--blue);
+  }
+  .head_new span {
+    font-size: 13px;
+    text-align: center;
+    color: var(--dark-grey);
+    font-weight: bold;
+    padding-bottom: 5px;
+    width: 100%;
+    color: var(--dark-grey);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .content_new {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+    margin: 15px 0;
+    gap: 0 5px;
+    text-align: center;
+    padding: 5px 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    align-items: center;
+  }
+  
+  .content_new span {
+    font-size: 15px;
+    text-align: center;
+    color: var(--red);
+    width: 100%;
+    color: var(--dark-grey);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  /* reponsive */
+  
+  @media (width < 600px) {
+    .callsboard {
+      padding: 5px;
+      margin-top: 5px;
+    }
+    
+    .reportCall .title {
+      font-size: 13px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: var(--blue);
+    }
+    
+    .dates {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      width: 200px;
+      gap: 10px;
+      margin-bottom: 15px;
+      align-items: center;
+      color: var(--dark-grey);
+      font-size: 12px
+    }
+    
+    .dates input {
+      border: none;
+      outline: none;
+      padding: 5px 3px;
+      width: 100px;
+      border-radius: 5px;
+      color: var(--dark-grey);
+    }
+    
+    .statistical h4 {
+      color: var(--dark-grey);
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    .charts {
+      margin-top: 15px;
+    }
+    
+    .chart {
+      padding: 5px;
+      background-color: white;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+    
+    .chart h5 {
+      color: var(--dark-grey);
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+    
+    .listCall {
+      padding: 10px;
+      background-color: white;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+    
+    .head__box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 10px;
+      border-radius: 10px;
+      background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+    }
+    
+    .head__box h3 {
+      font-size: 12px;
+      color: white;
+      font-weight: bold;
+    }
+    
+    .head_new {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      align-items: center;
+      width: 100%;
+      margin-top: 30px;
+      gap: 5px;
+      text-align: center;
+      border-bottom: 2px solid var(--blue);
+    }
+    .head_new span {
+      font-size: 11px;
+      text-align: center;
+      color: var(--dark-grey);
+      font-weight: bold;
+      padding-bottom: 5px;
+      width: 100%;
+      color: var(--dark-grey);
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    .content_new {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      width: 100%;
+      margin: 15px 0;
+      gap: 0 5px;
+      text-align: center;
+      padding: 5px 5px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      align-items: center;
+    }
+    
+    .content_new span {
+      font-size: 11px;
+      text-align: center;
+      color: var(--red);
+      width: 100%;
+      color: var(--dark-grey);
+      font-weight: bold;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+    
+  }
+
+
+  .bold {
+    color: var(--blue)!important;
+    font-weight: bold!important;
+  }
+  
+  .bold2 {
+    color: var(--green)!important;
+    font-weight: bold!important;
+  }
+  
+  .bold3 {
+    color: var(--yellow)!important;
+    font-weight: bold!important;
+  }
+  
+  .bold4 {
+    color: var(--red)!important;
+    font-weight: bold!important;
+  }

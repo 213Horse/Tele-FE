@@ -1,0 +1,129 @@
+.excelData {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 10006661236;
+  background-color: rgba(0, 0, 0, 0.291);
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  top: 0;
+  left: 0;
+  transition: 0.4s;
+}
+.selects {
+  display: flex;
+  margin-bottom: 20px;
+}
+.field {
+  margin: 0 10px;
+  width: 100%;
+}
+.field select {
+  width: 100%;
+  background: var(--grey);
+  color: var(--dark-grey);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px 36px 10px 16px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.contentExcel {
+  width: 100%;
+  padding: 20px;
+  overflow-y: scroll;
+  background-color: white;
+  background-image: url('../../../src/assets/excel.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 300px;
+}
+.contentExcel h5 {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--dark-blue);
+}
+.contentExcel h5 span {
+  font-size: 13px;
+  color: var(--dark-grey);
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  width: 50%;
+}
+button {
+  outline: none;
+  border: none;
+}
+
+.buttons .addbtn {
+  margin: 5px 5px;
+  width: 40%;
+  text-align: center;
+  padding: 10px 12px;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 5px;
+}
+
+.cancelbtn {
+  margin: 5px 5px;
+  width: 40%;
+  text-align: center;
+  padding: 10px 12px;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 5px;
+  background-color: var(--red);
+}
+.cancelbtn2 {
+  margin: 5px 5px;
+  width: 40%;
+  text-align: center;
+  padding: 10px 12px;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 5px;
+}
+.data table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.data th {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--dark-grey);
+}
+
+.data td {
+  font-size: 13px;
+  color: var(--blue);
+}
+
+.data table td,
+th {
+  border: 1px solid var(--dark-grey);
+  padding: 8px;
+}
+.btnadd {
+  font-size: 18px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  padding: 4px;
+  color: var(--red);
+  transition: 0.4s;
+  border-radius: 50%;
+}
+.btnadd:hover {
+  background-color: var(--light-blue);
+}
